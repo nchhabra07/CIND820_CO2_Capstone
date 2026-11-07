@@ -41,6 +41,13 @@ CIND820_CO2_Capstone/
 │   ├── 01_data_understanding.ipynb
 │   └── 02_model_preparation.ipynb
 ├── outputs/
+│   ├── eda_missingness_profile.csv
+│   ├── eda_modelling_period_assessment.csv
+│   ├── model_temporal_stability_summary.csv
+│   ├── final_test_comparison.csv
+│   ├── vif_combined_features.csv
+│   ├── final_error_by_year.csv
+│   └── emission_scale_summary.csv
 ├── README.md
 ├── requirements.txt
 └── .gitignore
