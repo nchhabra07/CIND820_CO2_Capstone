@@ -1,0 +1,4 @@
+Target_Year,Observations,MAE,Median_Absolute_Error,Maximum_Error
+2019,217,4.98,0.59,106.16
+2020,217,10.60,1.01,523.43
+2021,217,6.99,0.38,329.01
