@@ -1,0 +1,5 @@
+Emission_Scale,Observations,Average_Target_Emissions,Linear_MAE,Persistence_MAE,Mean_Error_Improvement,Linear_Wins,Linear_Win_Percent
+Low,163,0.45,0.35,0.03,-0.32,0,0.00
+Medium-Low,163,4.93,0.60,0.35,-0.25,42,25.77
+Medium-High,162,26.25,2.10,1.84,-0.26,63,38.89
+High,163,620.41,27.01,29.94,2.93,67,41.10
