@@ -1,0 +1,5 @@
+Model,Average_MAE,MAE_Std,Average_RMSE,RMSE_Std,Average_R2
+Gradient Boosting,7.309,2.690,51.888,32.760,0.992
+Linear Regression,5.590,1.302,29.919,11.715,0.998
+Persistence,5.937,1.482,33.674,12.585,0.997
+Random Forest,7.826,2.990,59.635,36.309,0.990
