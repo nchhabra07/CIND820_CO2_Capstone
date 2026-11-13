@@ -40,7 +40,11 @@ CIND820_CO2_Capstone/
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
 │   ├── 02_model_preparation.ipynb
-│   └── 03_poc_demo.ipynb
+│   ├── 03_poc_demo.ipynb
+│   └── compiled/
+│       ├── 01_data_understanding.html
+│       ├── 02_model_preparation.html
+│       └── 03_poc_demo.html
 ├── src/
 │   ├── __init__.py
 │   └── co2_pipeline.py
@@ -98,6 +102,9 @@ A compact, executed Milestone 3 proof-of-concept notebook that calls reusable fu
 - one-year-ahead dataset construction
 - chronological splitting
 - persistence and initial learned-model evaluation
+
+### Compiled notebook views
+Portable compiled HTML report views are available under `notebooks/compiled/` so key narrative and execution evidence can be reviewed without running Jupyter. The executed `.ipynb` files remain authoritative for complete code, figures, and full cell outputs.
 
 ### Modular pipeline code
 `src/co2_pipeline.py` contains reusable functions for ingestion, period assessment, entity filtering, target/feature construction, chronological splitting, metric calculation, and initial model evaluation. The functions reproduce the methodology and initial validation results from the detailed notebooks without changing the analysis.
