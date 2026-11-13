@@ -104,7 +104,7 @@ A compact, executed Milestone 3 proof-of-concept notebook that calls reusable fu
 - persistence and initial learned-model evaluation
 
 ### Compiled notebook views
-Portable compiled HTML report views are available under `notebooks/compiled/` so key narrative and execution evidence can be reviewed without running Jupyter. The executed `.ipynb` files remain authoritative for complete code, figures, and full cell outputs.
+Full nbconvert HTML exports of `01_data_understanding.ipynb` and `02_model_preparation.ipynb`, plus a compiled HTML view of the POC demo, are available under `notebooks/compiled/` so the analysis can be reviewed without running Jupyter. The executed `.ipynb` files remain the authoritative source for notebook code and saved execution state.
 
 ### Modular pipeline code
 `src/co2_pipeline.py` contains reusable functions for ingestion, period assessment, entity filtering, target/feature construction, chronological splitting, metric calculation, and initial model evaluation. The functions reproduce the methodology and initial validation results from the detailed notebooks without changing the analysis.
