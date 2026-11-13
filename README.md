@@ -40,11 +40,11 @@ CIND820_CO2_Capstone/
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
 │   ├── 02_model_preparation.ipynb
-│   ├── 03_poc_demo.ipynb
+│   ├── 03_poc_pipeline_demo.ipynb
 │   └── compiled/
 │       ├── 01_data_understanding.html
 │       ├── 02_model_preparation.html
-│       └── 03_poc_demo.html
+│       └── 03_poc_pipeline_demo.html
 ├── src/
 │   ├── __init__.py
 │   └── co2_pipeline.py
@@ -95,7 +95,7 @@ Covers:
 - residual diagnostics
 - performance by emissions scale
 
-#### 3. `03_poc_demo.ipynb`
+#### 3. `03_poc_pipeline_demo.ipynb`
 A compact, executed Milestone 3 proof-of-concept notebook that calls reusable functions from `src/co2_pipeline.py` and demonstrates:
 - data ingestion
 - modelling-period evidence
@@ -195,7 +195,7 @@ pip install -r requirements.txt
 4. Install `requirements.txt`.
 5. Run `01_data_understanding.ipynb`.
 6. Run `02_model_preparation.ipynb`.
-7. Run `03_poc_demo.ipynb` for the compact end-to-end Milestone 3 proof-of-concept demonstration.
+7. Run `03_poc_pipeline_demo.ipynb` for the compact end-to-end Milestone 3 proof-of-concept demonstration.
 
 ### GenAI declaration
 ChatGPT was used as a support tool for project organization, concept explanation, Python troubleshooting, and report-language refinement. It was not used to fabricate source data or analytical results. Numerical findings were produced from executed project code and reviewed by the student.
