@@ -7,7 +7,7 @@ Run the detailed analysis notebooks in this order:
 
 For the Milestone 3 live proof of concept, use:
 
-3. `03_poc_demo.ipynb`
+3. `03_poc_pipeline_demo.ipynb`
 
 The first notebook performs dataset audit, profiling, EDA, and modelling-period assessment.  
 The second notebook constructs the one-year-ahead forecasting dataset, evaluates baselines and candidate models, performs chronological stability checks, and runs final diagnostics.  
